@@ -52,7 +52,9 @@ nav {
 
 /* Mobile Navigation - Checkbox Hack Style */
 .menu-checkbox {
-    display: none;
+    display: none !important;
+    visibility: hidden;
+    position: absolute;
 }
 
 .hamburger {
