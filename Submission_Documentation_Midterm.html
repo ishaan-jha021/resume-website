@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Submission - Ishaan Jha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #FFD700;
+            --bg: #0A0A0A;
+            --text: #FFFFFF;
+            --secondary: #888888;
+            --card-bg: #151515;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: white;
+            color: #333;
+            margin: 0;
+            padding: 40px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            border: 1px solid #eee;
+            padding: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 2px solid #FFD700;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        .header-title h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            color: #000;
+        }
+
+        .header-title p {
+            margin: 5px 0 0;
+            color: #666;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .student-info {
+            text-align: right;
+            font-size: 14px;
+        }
+
+        .student-info p {
+            margin: 2px 0;
+        }
+
+        .links-box {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            border-left: 4px solid #FFD700;
+        }
+
+        .links-box a {
+            color: #000;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: #000;
+            border-left: 4px solid #FFD700;
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .comp-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .comp-card.after {
+            background: #000;
+            color: #fff;
+            border-color: #333;
+        }
+
+        .comp-card h3 {
+            margin-top: 0;
+            font-size: 16px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .feature-item {
+            margin-bottom: 20px;
+        }
+
+        .feature-item h4 {
+            margin: 0 0 10px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .code-block {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
+            overflow-x: auto;
+        }
+
+        .screenshot {
+            width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        @media print {
+            body { padding: 0; }
+            .container { box-shadow: none; border: none; width: 100%; max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-title" id="student_header">
+                <h1>MIDTERM ASSIGNMENT</h1>
+                <p>Web Development | IIM Bangalore</p>
+            </div>
+            <div class="student-info">
+                <p><strong>Ishaan Jha</strong></p>
+                <p>Roll No: 25120433</p>
+                <p>Email: ishaan.jha25@iimb.ac.in</p>
+            </div>
+        </header>
+
+        <section class="links-box">
+            <p><strong>Project Access URL:</strong> <a href="https://ishaan-jha021.github.io/resume-website/" target="_blank">https://ishaan-jha021.github.io/resume-website/</a></p>
+            <p><strong>GitHub Repository:</strong> <a href="https://github.com/ishaan-jha021/resume-website" target="_blank">https://github.com/ishaan-jha021/resume-website</a></p>
+        </section>
+
+        <h2>1. Project Evolution: From HTML to CSS</h2>
+        <p>This project represents the transition from a basic structural webpage (Module 3) to a fully-designed, premium digital experience. By applying modern CSS principles, the website was transformed from a plain black-on-white document into an "Obsidian Noir" portfolio.</p>
+
+        <div class="comparison">
+            <div class="comp-card">
+                <h3>MODULE 3 (Basic HTML)</h3>
+                <p style="font-size: 13px;">Simple tags &lt;h1&gt;, &lt;ul&gt;, and &lt;p&gt;. Standard browser font (Times New Roman). Vertical flow only. No colors or depth.</p>
+            </div>
+            <div class="comp-card after">
+                <h3>MIDTERM (Enhanced CSS)</h3>
+                <p style="font-size: 13px; color: #FFD700;">Custom Flexbox layouts. Google Fonts integration (Outfit). Glassmorphism effects. Dark theme UI. Interactive form logic.</p>
+            </div>
+        </div>
+
+        <h2>2. Key Visual Enhancements</h2>
+
+        <div class="feature-item">
+            <h4>A. Premium Typography & Branding</h4>
+            <p>Replaced default browser fonts with the <strong>'Outfit'</strong> Google Font family to create a modern, executive feel. Added a gold accent color (#FFD700) to highlight key skills and status.</p>
+            <img src="https://raw.githubusercontent.com/ishaan-jha021/resume-website/main/docs_hero.png" class="screenshot" alt="Hero Section Overlay" id="hero_shot">
+        </div>
+
+        <div class="feature-item">
+            <h4>B. Responsive Skills Grid</h4>
+            <p>Utilized <strong>CSS Grid</strong> to create a symmetric, three-column layout for technical expertise. This ensures the information is scannable and visually balanced compared to a simple bulleted list.</p>
+            <div class="code-block">
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <h4>C. Experience Timeline (Positioning & Borders)</h4>
+            <p>Applied <strong>relative positioning</strong> and custom border-left properties to create a professional timeline effect for the work experiences.</p>
+            <img src="https://raw.githubusercontent.com/ishaan-jha021/resume-website/main/docs_exp.png" class="screenshot" alt="Experience Section" id="exp_shot">
+        </div>
+
+        <h2>3. Interaction & Layout Logic</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h4>Navigation Bar</h4>
+                <p>Implemented a <strong>sticky navigation</strong> bar with glassmorphism using <code>backdrop-filter: blur()</code>. This allows users to access sections at any time while maintaining a premium feel.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Mobile Responsiveness</h4>
+                <p>Used <strong>Media Queries</strong> to ensure the website stacks beautifully on mobile devices, converting the multi-column sections into vertical single-column layouts for touch devices.</p>
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <h4>Contact Form Styling</h4>
+            <p>Designed a minimal, clean contact form using CSS transitions and focused state effects to enhance user experience.</p>
+            <img src="https://raw.githubusercontent.com/ishaan-jha021/resume-website/main/docs_contact.png" class="screenshot" alt="Contact Section" id="contact_shot">
+        </div>
+
+        <footer class="footer">
+            <p>Submitted for the Web Application Development Midterm - 2026</p>
+            <p>&copy; 2026 Ishaan Jha</p>
+        </footer>
+    </div>
+</body>
+</html>
