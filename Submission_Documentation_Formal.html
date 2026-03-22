@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Submission - Ishaan Jha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a0000;
+            --accent: #ffd700;
+            --text-main: #333;
+            --text-heading: #000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: #f9f9f9;
+            padding: 40px;
+        }
+
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 80px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-top: 8px solid var(--accent);
+        }
+
+        .header {
+            margin-bottom: 60px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-heading);
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .meta-info {
+            margin-bottom: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            font-size: 15px;
+        }
+
+        .meta-item b {
+            display: block;
+            color: var(--text-heading);
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+
+        .meta-item a {
+            color: var(--primary);
+            text-decoration: none;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-heading);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-number {
+            color: var(--accent);
+            margin-right: 15px;
+            font-size: 24px;
+            opacity: 0.8;
+        }
+
+        .content {
+            font-size: 16px;
+            color: #444;
+            text-align: justify;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+        }
+
+        .conclusion {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+            font-style: italic;
+            font-size: 14px;
+            color: #777;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .page {
+                box-shadow: none;
+                padding: 40px;
+                border-top: none;
+            }
+            .section-title {
+                break-after: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <h1>Project Submission Report</h1>
+            <p>Module 5: Advanced Website Styling & Professional Interface Optimization</p>
+        </div>
+
+        <div class="meta-info">
+            <div class="meta-item">
+                <b>Candidate</b>
+                Ishaan Jha
+            </div>
+            <div class="meta-item">
+                <b>Roll Number</b>
+                [Insert Roll No.]
+            </div>
+            <div class="meta-item">
+                <b>Portfolio Link</b>
+                <a href="https://ishaan-jha021.github.io/resume-website/">ishaan-jha021.github.io</a>
+            </div>
+            <div class="meta-item">
+                <b>Date</b>
+                March 22, 2026
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><span class="section-number">01</span> EXECUTIVE SUMMARY</div>
+            <div class="content">
+                <p>The primary focus of this specialization was the technical transition from a baseline structural prototype to a high-fidelity digital asset. By engineering a custom design system, the platform effectively projects professional authority in Digital Strategy and Product Architecture, tailored for an elite professional persona.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><span class="section-number">02</span> BRAND ARCHITECTURE</div>
+            <div class="content">
+                <p>A sophisticated "Premium Dark" visual identity was established using a high-contrast palette. The primary background leverages deep maroon values (#1a0000) accented with brilliant gold highlights (#ffd700). The 'Outfit' typeface was selected for its geometric clarity, ensuring optimal readability across all digital touchpoints.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><span class="section-number">03</span> STRUCTURAL LAYOUT ENGINEERING</div>
+            <div class="content">
+                <p>Layout integrity was achieved through the advanced application of CSS Flexbox and Grid modules. The navigation architecture was reconfigured as a persistent sticky component. Complex data-grids were utilized for technical sections to maximize vertical rhythm and whitespace efficiency on wide-aspect displays.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><span class="section-number">04</span> RESPONSIVE OPTIMIZATION</div>
+            <div class="content">
+                <p>Adhering to mobile-first principles, the platform re-architects its component hierarchy for smaller viewports. A lightweight, 100% CSS-based hamburger navigation menu was implemented via the checkbox-hack, ensuring peak performance and intuitive interaction flows on mobile devices.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><span class="section-number">05</span> USER EXPERIENCE & CONNECTIVITY</div>
+            <div class="content">
+                <p>The "Get in Touch" module was refined into a minimal, distraction-free interface. It features integrated logic for direct professional communication via Gmail. Furthermore, technical data tables were enhanced with overflow-scrolling mechanisms to maintain scannability on all device categories.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><span class="section-number">06</span> INTERACTION DESIGN</div>
+            <div class="content">
+                <p>Elite micro-interactions were added via CSS transitions and transforms. Subtle Y-axis displacements and opacity modulations provide immediate visual feedback on interactive elements, significantly elevating the perceived quality and responsiveness of the user interface.</p>
+            </div>
+        </div>
+
+        <div class="conclusion">
+            The final submission represents a state-of-the-art professional portfolio that meets the highest standards of semantic integrity, aesthetic excellence, and cross-platform reliability.
+        </div>
+    </div>
+</body>
+</html>
